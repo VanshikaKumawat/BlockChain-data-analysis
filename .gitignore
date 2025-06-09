@@ -1,0 +1,21 @@
+# Ignore data files
+data/raw/
+data/processed/
+
+# Ignore model files
+models/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore model binaries
+*.pkl
+*.joblib
+
+# OS system files
+.DS_Store
+Thumbs.db
