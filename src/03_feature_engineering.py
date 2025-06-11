@@ -65,3 +65,6 @@ final_df = df.copy()
 print("🎯 Final feature-engineered dataset shape:", final_df.shape)
 print("📌 Final columns:\n", final_df.columns.tolist())
 
+# Save final feature-engineered dataset
+final_df.to_csv('/content/BlockChain-data-analysis/data/processed/feature_engineered_dataset.csv', index=False)
+print("✅ Feature-engineered dataset saved at: /content/BlockChain-data-analysis/data/processed/feature_engineered_dataset.csv")
